@@ -117,8 +117,8 @@ const CHARS: &[char] = &[
 pub const RENDEZVOUS_SERVERS: &[&str] = &["remote.haxfer.com"];
 pub const RS_PUB_KEY: &str = "W5ltTe66hz9g1p7k3Yzs2bKvDAxYol0Vrv5Ash0PRfs=";
 
-pub const RENDEZVOUS_PORT: i32 = 21116;
-pub const RELAY_PORT: i32 = 21117;
+pub const RENDEZVOUS_PORT: i32 = 8443;
+pub const RELAY_PORT: i32 = 8444;
 pub const WS_RENDEZVOUS_PORT: i32 = 21118;
 pub const WS_RELAY_PORT: i32 = 21119;
 
